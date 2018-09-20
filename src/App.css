@@ -9,7 +9,10 @@ body{
   height: 300px;
   width: 100vw;
   position: absolute;
-  bottom: 300px;
   z-index: -100;
 
+}
+
+h1{
+  margin: 0px;
 }
