@@ -22,6 +22,31 @@ h1{
   height: 100vh;
 }
 
+.nav-bar{
+background-color: #5B305A;
+display: flex;
+height: 64px;
+justify-content: space-between;
+
+}
+
+
+.nav-bar li{
+  list-style-type: none;
+  margin: 20px;
+  color: white;
+  font-size: 1em;
+}
+
+.nav-bar ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar-logo{
+  height: 64px;
+  align-self: center
+}
 
 
 
