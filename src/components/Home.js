@@ -10,7 +10,9 @@ function Home() {
     <div>
       <div className="hero">
       <NavBar />
-        <h1> hey</h1>
+        <h1 class='home-title-1'> Hi! </h1>
+        <h2 class='home-title-2'>Welcome to my Portfolio </h2>
+        
       </div>
     </div>
   )

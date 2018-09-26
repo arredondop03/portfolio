@@ -16,17 +16,21 @@ h1{
 }
 
 .hero{
-  background-image: url("./pink-background.jpg");
-  background-size: cover;
+  background-image: url("./lum3n-250309-unsplash.jpg");
+  /* background-size: cover;
   background-repeat: no-repeat; 
+  height: 100vh; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
 }
 
 .nav-bar{
-background-color: #5B305A;
 display: flex;
 height: 64px;
-justify-content: space-between;
+justify-content: center;
 
 }
 
@@ -40,7 +44,7 @@ justify-content: space-between;
 
 .nav-bar ul{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .nav-bar-logo{
