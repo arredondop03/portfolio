@@ -17,40 +17,62 @@ h1{
 
 .hero{
   background-image: url("./lum3n-250309-unsplash.jpg");
-  /* background-size: cover;
-  background-repeat: no-repeat; 
-  height: 100vh; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
+  position: relative;
+  
+}
+
+.hero-content{
+  height: 100vh;
+  line-height: 5em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-hero{
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-bar{
-display: flex;
-height: 64px;
-justify-content: center;
-
+  height: 64px;
+  position: absolute;
+  margin-left: -164.53px;
+  left: 50%;
 }
 
 
 .nav-bar li{
   list-style-type: none;
   margin: 20px;
-  color: white;
+  color:#313232;
   font-size: 1em;
 }
 
 .nav-bar ul{
   display: flex;
   justify-content: center;
+  padding: 0px;
 }
 
-.nav-bar-logo{
-  height: 64px;
-  align-self: center
+.home-title-1{
+font-size: 4em;
+font-family: 'Montserrat', sans-serif;
+color: #545554;
 }
+
+.home-title-2{
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  color:#313232;
+}
+
+
 
 
 

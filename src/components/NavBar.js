@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../diamond-only.svg'
 
 function NavBar(){
   return(
