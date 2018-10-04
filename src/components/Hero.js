@@ -6,9 +6,10 @@ function Hero() {
     <div className="hero">
       <NavBar />
       <div className="hero-content">
-        <div >
-          <h1 class='home-title-1'> Hi! My I'm Paola, </h1>
-          <h2 class='home-title-2'>A FRONT END DEVELOPER </h2>
+        <div className="test">
+          <img src="/pink-watercolor.jpg" alt="watercolor-image" className="hero-watercolor-image" />
+          <h1 className='home-title-1'> Hi! I'm Paola </h1>
+          <h2 className='home-title-2'>A full stack web developer</h2>
         </div>
       </div>
     </div>
