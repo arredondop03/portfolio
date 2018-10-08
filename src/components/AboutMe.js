@@ -4,9 +4,25 @@ import React from 'react'
 function AboutMe() {
 
   return(
-    <div className="about-me-div component test1">
-    <div className="about-me-content">
-     <h1 className="about-me-h1" >Who is this jaw-dropping girl?</h1>
+    <div className="about-me-div component">
+
+
+    
+    <div className="left-content" >
+
+      <video className="about-me-video" autoPlay loop>
+        <source src="about-me.mov" type="video/mp4" />
+      Your browser does not support the video tag.
+      </video>
+
+
+
+    </div>
+
+
+
+    <div className="right-content">
+     <h1>Who is this jaw-dropping girl?</h1>
       <br />
       <p>  I am a 19 years old Venezuelan girl who just graduated from a web 
         development bootcamp called Ironhack. I am currently working as a contractor 
