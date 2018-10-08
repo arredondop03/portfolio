@@ -55,7 +55,7 @@ h1{
   height: 100vh;
   position: relative;
   z-index: 1000;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .hero-content{
@@ -157,13 +157,14 @@ h1{
 
 
 
-/* ---------MY WORK--------------------------------------------------------------------- */
-.contact-me-element img{
-  width: 300px;;
+/* ---------CONTACT--------------------------------------------------------------------- */
+.contact-me-element {
+ width: auto;
+ 
 
 }
 
-.test1{
+/* .test1{
   background-color: aqua;
 }
 
@@ -172,6 +173,23 @@ h1{
 }
 .test3{
   background-color: aliceblue;
+} */
+
+.contact-me-link{
+  font-size: 2em;
+  text-decoration: none;
+  color: rgb(192, 151, 17);
+
+}
+
+.contact-me-container{
+  margin: 150px auto 30px auto;
+}
+
+.contact-me-h2{
+  font-family: 'Nexa Light';
+  font-size: 3em;
+  color: rgb(192, 151, 17);
 }
 
 
