@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <NavBar />
       <div className="hero-content">
         <div className="test">

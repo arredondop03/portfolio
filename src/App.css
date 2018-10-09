@@ -17,13 +17,17 @@ h1{
 }
 
 .component{
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin: 90px 0;
   position: relative;
+}
+
+a{
+  text-decoration: none;
 }
 
 /* ---------NAV BAR--------------------------------------------------------------------- */
@@ -140,7 +144,9 @@ h1{
 
 .elements-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
   /* flex-direction: row; */
 }
 
@@ -152,7 +158,8 @@ h1{
 .element{
   margin: 60px;
   text-align: center;
-  width: 80%;
+  width: 500px;
+  /* min-width: 200px; */
 }
 
 .element h2{
@@ -166,20 +173,13 @@ h1{
 /* ---------CONTACT--------------------------------------------------------------------- */
 .contact-me-element {
  width: auto;
- 
-
 }
 
-/* .test1{
-  background-color: aqua;
+.contact-me-component{
+  height: 700px;
+  overflow-y: hidden;
+  margin-bottom: 0;
 }
-
-.test2{
-  background-color: blueviolet;
-}
-.test3{
-  background-color: aliceblue;
-} */
 
 .contact-me-link{
   font-size: 2em;

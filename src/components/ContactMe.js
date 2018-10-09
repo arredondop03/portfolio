@@ -3,7 +3,7 @@ import React from 'react'
 
 function ContactMe() {
   return (
-    <div className="component test3">
+    <div className="component contact-me-component" id="contact-me">
     <img src="/pink-watercolor.jpg" alt="watercolor-image" className="contact-me-watercolor-image" />
     <h2 className="contact-me-h2">Contact Me</h2>
       <div className='elements-container contact-me-container'>
@@ -19,9 +19,6 @@ function ContactMe() {
       <div className='element contact-me-element'>
       <a className='contact-me-link' href='mailto:arredondop03@gmail.com'> <img className="link-logo" alt="linked-in-logo" src="/gmail-gold.svg" /> </a>
       </div>
-
-
-
 
       </div>
     </div>
