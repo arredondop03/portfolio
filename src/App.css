@@ -33,7 +33,7 @@ a{
 /* ---------NAV BAR--------------------------------------------------------------------- */
 
 .nav-bar{
-  height: 64px;
+  /* height: 100px; */
   position: absolute;
   margin-left: -164.53px;
   left: 50%;
@@ -49,23 +49,24 @@ a{
 }
 
 .nav-bar ul{
+  height: 80px;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0px;
   color: #D4AF37;
 }
 
 /* ---------HERO--------------------------------------------------------------------- */
-
+/* 778 - 558 */
 .hero{
-  height: 100vh;
   position: relative;
   z-index: 1000;
-  /* background-color: red; */
 }
 
 .hero-content{
   height: 100vh;
+  padding: 100px;
   line-height: 5em;
   text-align: center;
   display: flex;
@@ -104,6 +105,16 @@ a{
   position: relative;
 }
 
+@media(max-width: 786px){
+  .hero-watercolor-image{
+    display: none;
+  }
+  .hero-content{
+    background-image: url('/pink-watercolor.jpg');
+    background-position-x: center;
+    background-size: cover;
+  }
+}
 
 /* ---------ABOUT ME--------------------------------------------------------------------- */
 
@@ -135,6 +146,26 @@ a{
   font-size: 1.5em;
   line-height: 1.3em;
 }
+
+@media(max-width: 786px){
+  .about-me-div{
+    flex-direction: column;
+  }
+  .about-me-video{
+    margin-right: 0;
+  }
+
+  .right-content{
+    margin: 0 50px;
+  }
+
+  .right-content h1{
+    text-align: center;
+    margin: 40px 20px;
+  }
+}
+
+
 
 /* ---------MY WORK--------------------------------------------------------------------- */
 

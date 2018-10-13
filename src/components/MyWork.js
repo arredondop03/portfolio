@@ -38,8 +38,7 @@ function MyWork() {
       </div>
       </a>
 
-
-      <a href="https://arredondop03.github.io/George-vs-arepa/">
+      <a href="https://arredondop03.github.io/George-vs-arepa/" >
       <div className="element">
         <img className="image-my-work" src="/george.jpg" />
         <h2>George vs. Arepa</h2>

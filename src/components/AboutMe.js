@@ -32,7 +32,8 @@ function AboutMe() {
         remember, I graduated from a nine week long bootcamp (you will only know the pain I 
         am talking about if you have experienced it yourself).  This is my passion and I am 
         grateful for having found it at a young age.  Keep reading and if you like what 
-        you see or have any questions, email me at arredondop03@gmail.com. Thank you! Enjoy! 😁
+        you see or have any questions, email me at arredondop03@gmail.com. 
+        <br /> <br /> Thank you! Enjoy! 😁
       </p>
       </div>
     </div>
