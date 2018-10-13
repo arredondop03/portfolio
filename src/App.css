@@ -30,6 +30,12 @@ a{
   text-decoration: none;
 }
 
+@media(max-width: 786px){
+.component{
+  padding: 60px 0; 
+}
+}
+
 /* ---------NAV BAR--------------------------------------------------------------------- */
 
 .nav-bar{
@@ -58,7 +64,6 @@ a{
 }
 
 /* ---------HERO--------------------------------------------------------------------- */
-/* 778 - 558 */
 .hero{
   position: relative;
   z-index: 1000;
@@ -66,7 +71,7 @@ a{
 
 .hero-content{
   height: 100vh;
-  padding: 100px;
+  padding: 50px 0;
   line-height: 5em;
   text-align: center;
   display: flex;
@@ -121,7 +126,7 @@ a{
 .about-me-div{
   display: flex;
   flex-direction: row;
-
+  margin: 0 20px;
 }
 
 .about-me-video{
@@ -156,7 +161,7 @@ a{
   }
 
   .right-content{
-    margin: 0 50px;
+    margin: 0 20px;
   }
 
   .right-content h1{
@@ -178,7 +183,6 @@ a{
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 100px;
-  /* flex-direction: row; */
 }
 
 .my-work-h1{
@@ -190,13 +194,18 @@ a{
   margin: 60px;
   text-align: center;
   width: 500px;
-  /* min-width: 200px; */
 }
 
 .element h2{
   margin: 20px 0;
   color: rgb(192, 151, 17);
   
+}
+
+@media(max-width: 786px){
+ .elements-container{
+   margin-top: 40px;
+ }
 }
 
 
@@ -239,6 +248,15 @@ a{
   top: 20px;
   right: -100px;
   width: 1000px;
+}
+
+@media(max-width: 786px){
+  .contact-me-component{
+    height: auto;
+  }
+  .contact-me-container{
+    margin-top: 50px;
+  }
 }
 
 
