@@ -8,15 +8,8 @@ function AboutMe() {
 
 
     
-    <div className="left-content" >
-
-      <video className="about-me-video" autoPlay loop>
-        <source src="about-me.mov" type="video/mp4" />
-      Your browser does not support the video tag.
-      </video>
-
-
-
+    <div>
+    <img className="about-me-image" src="/profile-picture.jpg" />
     </div>
 
 
